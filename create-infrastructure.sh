@@ -30,6 +30,15 @@ start_vm()
   | jq -r .Instances[0].InstanceId
 }
 
+get_dns_name()
+ start()
+ {
+  start_log=$(
+  start_vm 10.4.1.91 associate-public-ip-address ${USER_NAME}-vm1 file://${PWD}/scripts/initial-command.sh
+   )
+  }
+
+
 #get_dns_name()
 #{
 #  local instance-"$1"

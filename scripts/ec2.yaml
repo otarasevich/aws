@@ -1,0 +1,9 @@
+---
+Resources:
+  EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      InstanceType: t2.micro
+      KeyName: 'user9'
+      ImageId: ami-0b0bac64 # AMI eu-central-1
+

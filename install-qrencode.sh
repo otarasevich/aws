@@ -13,6 +13,7 @@ nohup ve/bin/python bin/srv.py >>log/qrencode.log 2>&1 &
 
 sudo /etc/init.d/nginx restart
 
+#########################
 #sudo apt-get update -y                                                                                         |
 #sudo apt-get install -y nginx git-core qrencode python-virtualenv                                              |
 #                                                                                                               |
